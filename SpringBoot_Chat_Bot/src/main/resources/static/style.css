@@ -1,0 +1,43 @@
+/* Custom Styles for Chatbot */
+body {
+    background-color: #f4f6f9;
+}
+
+.card {
+    border-radius: 15px;
+    border: none;
+}
+
+.card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+#userInput {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    font-size: 1.1rem;
+}
+
+#sendBtn {
+    background-color: #007bff;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+#sendBtn:hover {
+    background-color: #0056b3;
+}
+
+#responseContainer {
+    border-radius: 10px;
+}
+
+.alert {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
